@@ -26,8 +26,9 @@ async function fetch(pageno, pagesize=10) {
       <td>${c.tel}</td>
     </tr>
     `;
+    $tbody.append(html);
   };
-  $tbody.append(html);
+  
  }
 
  function getPagination() {
